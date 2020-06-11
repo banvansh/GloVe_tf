@@ -1,3 +1,5 @@
+# GloVe
+
 ## Usage
 ### Train
 ```bash
@@ -51,11 +53,11 @@ The solution to these equations is exponential function. So, the equation, after
 
 We use a new weighted least squares regression model that addresses these problems. Casting above equation as a least squares problem and introducing a weighting function f(Xij) into the cost function gives us the model,
 
-
 <img src="https://miro.medium.com/max/1224/1*oDcCpHSK7-Lt06zoW4NPMA.png" alt="drawing" width="500"/>
  
 Where V is the size of the vocabulary.
 The proposed weighting function is
+
  ![alt text](https://miro.medium.com/max/656/0*AZsJlwIghrdhD7c4)
 
 we ﬁx to xmax = 100 for all our experiments. We found that α = 3/4 gives a modest improvement over a linear version with α = 1.
