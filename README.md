@@ -62,6 +62,10 @@ The proposed weighting function is
 
 we ﬁx to xmax = 100 for all our experiments. We found that α = 3/4 gives a modest improvement over a linear version with α = 1.
 
+## A Sample of the Embedding Plot:
+
+<img src="https://raw.githubusercontent.com/vanshbansal1505/GloVe_tf/master/embedding_plot_sample.png" alt="drawing">
+
 ## Comparison with word2vec:
 GloVe controls for the main sources of variation by setting the vector length, context window size, corpus, and vocabulary size to the conﬁguration and most importantly training time.
 ![alt text](https://adriancolyer.files.wordpress.com/2016/04/glove-vs-word2vec.png?w=656&zoom=2)
