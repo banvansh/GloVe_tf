@@ -17,7 +17,7 @@ $ python3 main.py --mode "get_ClosestWords" --word "big"
 ```bash
 $ python3 main.py --mode "analogy" --word1 "big" --word2 "long" --word3 "small"
 ```
-### To plot the embeddings in 2D
+### To plot the embeddings
 ```bash
 $ python3 main.py --mode "plotEmbeddings"
 ```
@@ -69,5 +69,6 @@ GloVe controls for the main sources of variation by setting the vector length, c
 ## Conclusion:
 GloVe is a new global log-bilinear regression model for the unsupervised learning of word representations that outperforms other models on word analogy, word similarity, and named entity recognition tasks.
 
-
+### Note:
+The dataset used in the implementation is same as used in word2vec tensorflow implementation to compare the results.
 
